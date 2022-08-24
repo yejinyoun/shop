@@ -2,3 +2,52 @@
   padding: 0;
   margin: 0;
 }
+
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+li {
+  margin-right: 5%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  margin-top: 5vh;
+}
+
+main {
+  margin-top: 5%;
+}
+
+h1 {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-bottom: none;
+}
+
+div {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid;
+}
+
+p {
+  font-size: 3rem;
+}
