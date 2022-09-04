@@ -61,3 +61,40 @@ p {
   margin-top: 20px;
   font-weight: bold;
 }
+
+article.soldout img {
+  opacity: 0.5;
+}
+
+article.soldout::before {
+  content: "Sold Out";
+  position: absolute;
+  background: darkgrey;
+  color: black;
+  padding: 1rem;
+}
+
+article.onsale::before {
+  content: "On Sale";
+  position: absolute;
+  background: red;
+  color: white;
+  padding: 1rem;
+}
+
+article.soldout::before {
+  content: "Sold Out";
+  position: absolute;
+  background: darkgrey;
+  color: black;
+  padding: 1rem;
+}
+
+.discounted {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.dontshow {
+  display: none;
+}
